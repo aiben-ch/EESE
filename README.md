@@ -32,7 +32,7 @@ _What constitutes a good science benchmark?_
    </div>
     
 
-<a href="https://github.com/aiben-ch/EES"><strong>Github</strong></a>  |
+<a href="https://github.com/aiben-ch/EESE"><strong>Github</strong></a>  |
 <a href="https://aiben.ch/"><strong>Team Work</strong></a> 
 
   
