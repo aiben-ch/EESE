@@ -1,5 +1,4 @@
 import time
-import random
 
 def call_llm(message, client, model_name="gpt-4o"):
     try:
@@ -9,7 +8,6 @@ def call_llm(message, client, model_name="gpt-4o"):
             temperature=0.0
         )
         return response.choices[0].message.content.strip()
-        
 
     except Exception as e:
         print(f"Error during answering: {e}")
@@ -35,6 +33,6 @@ def try_call_3times(
 
     if not answer:
         answer = 'no response'
-    #time.sleep(0.1)
+    #time.sleep(0.5)
 
     return answer
