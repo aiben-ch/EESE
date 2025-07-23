@@ -86,7 +86,7 @@ def main():
     logger.info("Analyzing results...")
     results, overall_avg = analyze_results_by_discipline(processed_data)
     
-    # 6. save the results
+    # 6. save the results (Optional)
     logger.info("Saving results...")
     save_results(processed_data, results, overall_avg)
     
