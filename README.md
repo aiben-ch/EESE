@@ -31,7 +31,7 @@ _What constitutes a good science benchmark?_
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
    </div>
     
-
+<a href="https://arxiv.org/pdf/2507.16514"><strong>Paper</strong></a>  |
 <a href="https://github.com/aiben-ch/EESE"><strong>Github</strong></a>  |
 <a href="https://aiben.ch/"><strong>Team Work</strong></a> 
 
