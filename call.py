@@ -1,13 +1,18 @@
 import time
+import random
 
 def call_llm(message, client, model_name="gpt-4o"):
     try:
+        '''
         response = client.chat.completions.create(
             model= model_name,
             messages=message,
             temperature=0.0
         )
         return response.choices[0].message.content.strip()
+        '''
+        response = random.choice(['0','1','2','3','4','5','6','7','8','9'])
+        return response
 
     except Exception as e:
         print(f"Error during answering: {e}")
@@ -33,6 +38,6 @@ def try_call_3times(
 
     if not answer:
         answer = 'no response'
-    #time.sleep(0.5)
+    #time.sleep(0.1)
 
     return answer

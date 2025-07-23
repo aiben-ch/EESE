@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- 
 # llm_information.py
-# 获取llm的client
+# get the llm client
 
 from openai import OpenAI
 from config import JUDGE_LLM_CONFIG,LLM_CONFIG

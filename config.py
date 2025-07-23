@@ -29,7 +29,7 @@ JUDGE_LLM_CONFIG = {
 
 # 数据处理配置
 DATA_CONFIG = {
-    "input_file": "esee.jsonl",
+    "input_file": "EESE_new.jsonl",
     "input_image_dir": "",  # 图片目录路径，如果有的话
     "detail": "auto"
 }
