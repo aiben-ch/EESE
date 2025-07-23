@@ -67,3 +67,19 @@ Please contact any of the first authors of this paper for queries.
 - Zicheng Zhang, `zhangzicheng@pjlab.org.cn`, @zzc-1998
 - Junying Wang, `wangjunying@pjlab.org.cn`, @junyingwang959
 
+
+## Citation
+
+If you find our work interesting, please feel free to cite our paper:
+
+```bibtex
+@misc{wang2025everevolvingscienceexam,
+      title={The Ever-Evolving Science Exam}, 
+      author={Junying Wang and Zicheng Zhang and Yijin Guo and Farong Wen and Ye Shen and Yingji Liang and Yalun Wu and Wenzhe Li and Chunyi Li and Zijian Chen and Qi Jia and Guangtao Zhai},
+      year={2025},
+      eprint={2507.16514},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.16514}, 
+}
+```
