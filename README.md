@@ -49,7 +49,9 @@ _What constitutes a good science benchmark?_
 </div>
 
 ## Release
-- [2025/7/22]🔥  Our paper is submmitted online.
+- [2025/7/24]🔥  Our quick start method is submmitted online <a href="https://github.com/aiben-ch/EESE">EESE-Quick-Start</a>.
+- [2025/7/23]🔥  Our dataset is submmitted online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
+- [2025/7/22]🔥  Our paper is submmitted online <a href="https://arxiv.org/pdf/2507.16514">EESE-Paper</a> .
 
 ## key Contribution
 - **A large-scale, high-quality science benchmark pool**: We construct EESE-Pool, a 100K+ science question-answer pair pool across 5 disciplines and 500+ subfields, with diverse formats and rigorous quality control. We design three-stage Data Engine (Transcription, Expansion, and Categorization) and Data Refinement (a Parallel Three-Branch Refinement Framework) to ensure range, reach, and rigor.
