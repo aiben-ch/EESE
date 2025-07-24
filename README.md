@@ -1,10 +1,13 @@
-<div align="center">
+<div align="center">  
 
+
+ <div style="width: 20%; text-align: center; margin:auto;">
+      <img style="width:20%" src="img/aibench.png">
+  </div>
  <div>
   <h1>The Ever-Evolving Science Exam</h1>
 
 _What constitutes a good science benchmark?_
-
 
   <div>
       <a href="https://github.com/junyingwang959" target="_blank">Junying Wang</a><sup>*</sup>,
