@@ -1,6 +1,5 @@
 <div align="center">
 
-    
  <div>
   <h1>The Ever-Evolving Science Exam</h1>
 
@@ -39,7 +38,7 @@ _What constitutes a good science benchmark?_
   
     
  <div style="width: 80%; text-align: center; margin:auto;">
-      <img style="width:80%" src="3R.png">
+      <img style="width:80%" src="img/3R.jpg">
   </div>
 </div>
  
@@ -56,7 +55,7 @@ _What constitutes a good science benchmark?_
 <div></div>
 
 <div style="width: 95%; text-align: center; margin:auto;">
-      <img style="width:95%" src="performance_subplots_4.png">
+      <img style="width:95%" src="img/performance_subplots_4.jpg">
   </div>
 
 ## Quick Start
@@ -103,16 +102,17 @@ python main.py
 ## File Structure
 
 ```
-├── main.py              # Main evaluation script
-├── inference.py         # Core inference functions
-├── config.py            # Configuration settings
-├── call.py              # LLM API calling functions
-├── llm_information.py   # LLM client setup
-├── utils.py             # Utility functions
-├── requirements.txt     # Python dependencies
-├── EESE.jsonl           # Input data file
-├── log/                 # Log files directory
-└── results/             # Output results directory
+├── code                     # Code folder
+    ├── main.py              # Main evaluation script
+    ├── inference.py         # Core inference functions
+    ├── config.py            # Configuration settings
+    ├── call.py              # LLM API calling functions
+    ├── llm_information.py   # LLM client setup
+    ├── utils.py             # Utility functions
+    ├── requirements.txt     # Python dependencies
+    ├── EESE.jsonl           # Input data file
+    ├── log/                 # Log files directory
+    └── results/             # Output results directory
 ```
 
 
