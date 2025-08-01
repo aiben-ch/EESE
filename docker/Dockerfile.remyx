@@ -1,0 +1,20 @@
+# syntax=docker/dockerfile:1.4
+FROM python:3.10-alpine
+
+WORKDIR /app
+
+# Install git and curl for cloning the repo and downloading data, then remove them.
+# The repo is cloned into the WORKDIR.
+RUN apk add --no-cache git curl && \
+    git clone https://github.com/aiben-ch/EESE . && \
+    curl -L https://huggingface.co/datasets/AIBench/EESE/resolve/main/EESE.jsonl -o EESE_new.jsonl && \
+    apk del git curl
+
+# Install Python dependencies from requirements.txt.
+# Create directories for logs and results as the application expects them to exist.
+RUN pip install --no-cache-dir -r requirements.txt && \
+    mkdir log results
+
+# Set the default command to run the main evaluation script.
+# The script runs a demo evaluation using mock API calls and writes results to /app/results.
+CMD ["python", "main.py"]
