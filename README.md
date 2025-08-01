@@ -49,6 +49,7 @@ _What constitutes a good science benchmark?_
 </div>
 
 ## Release
+- [2025/7/30]🔥  Evaluation is avaiable on <a href="https://github.com/open-compass">OpenCompass</a>.
 - [2025/7/24]🔥  Our quick start method is submmitted online <a href="https://github.com/aiben-ch/EESE">EESE-Quick-Start</a>.
 - [2025/7/23]🔥  Our dataset is submmitted online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
 - [2025/7/22]🔥  Our paper is submmitted online <a href="https://arxiv.org/pdf/2507.16514">EESE-Paper</a> .
