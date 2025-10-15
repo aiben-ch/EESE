@@ -67,10 +67,10 @@ _What constitutes a good science benchmark?_
 | Model             | Org.      | Params | Open. | Overall |
 | ----------------- | --------- | ------ | :---: | ------- |
 | Claude-3-7-sonnet | Anthropic | N/A    |   ❌   | 0.1452    |
-| Doubao-1.5-pro-256k| Bytedance    | N/A    |   ❌   | 0.2308    |
+| Doubao-1.5-pro| Bytedance    | N/A    |   ❌   | 0.2308    |
 | Gemini-2.5-pro    | Google    | N/A    |   ❌   | 0.2424    |
 | GPT-5             | OpenAI    | N/A    |   ❌   | 0.2620    |
-| Kimi-K2-0711-preview | Moonshot AI  | 1.01T   |   ✅   | 0.2230    |
+| Kimi-K2-0711 | Moonshot | 1.01T   |   ✅   | 0.2230    |
 | O3                | OpenAI    | N/A    |   ❌   | 0.2594    |
 | Deepseek-R1       | Deepseek  | 671B   |   ✅   | 0.1916    |
 | Grok-4            | xAI       | N/A    |   ❌   | 0.1920    |
