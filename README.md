@@ -48,16 +48,42 @@ _What constitutes a good science benchmark?_
  
 </div>
 
-## Release
-- [2025/7/30]🔥  Evaluation is avaiable on <a href="https://github.com/open-compass">OpenCompass</a>.
-- [2025/7/24]🔥  Our quick start method is submmitted online <a href="https://github.com/aiben-ch/EESE">EESE-Quick-Start</a>.
-- [2025/7/23]🔥  Our dataset is submmitted online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
-- [2025/7/22]🔥  Our paper is submmitted online <a href="https://arxiv.org/pdf/2507.16514">EESE-Paper</a> .
 
+
+## Release
+- [2025/10/15]🔥  Our EESE-V2 is updated online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
+- [2025/7/30] 🔥  Evaluation is avaiable on <a href="https://github.com/open-compass">OpenCompass</a>.
+- [2025/7/24] 🔥  Our quick start method is submmitted online <a href="https://github.com/aiben-ch/EESE">EESE-Quick-Start</a>.
+- [2025/7/23] 🔥  Our dataset is submmitted online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
+- [2025/7/22] 🔥  Our paper is submmitted online <a href="https://arxiv.org/pdf/2507.16514">EESE-Paper</a> .
+
+  
 ## key Contribution
 - **A large-scale, high-quality science benchmark pool**: We construct EESE-Pool, a 100K+ science question-answer pair pool across 5 disciplines and 500+ subfields, with diverse formats and rigorous quality control. We design three-stage Data Engine (Transcription, Expansion, and Categorization) and Data Refinement (a Parallel Three-Branch Refinement Framework) to ensure range, reach, and rigor.
 - **A dynamic, leakage-resilient evaluation set**: We propose EESE, a 500-instance subset periodically updated (regular resampling 500 instances from the EESE-Pool), maintaining representativeness while reducing leakage risk and evaluation overhead.
 - **Comprehensive evaluation of LLMs**: We evaluate 32 leading models (open- and closed-source) on EESE-Pool and EESE, revealing significant performance gaps across disciplines, the effectiveness of refinement in improving quality, and the trade-offs between inference cost and science ability. The findings offer insights for future science benchmarks.
+
+## V2-Version-2025-10-15
+| Model             | Org.      | Params | Open. | Overall |
+| ----------------- | --------- | ------ | :---: | ------- |
+| Claude-3-7-sonnet | Anthropic | N/A    |   ❌   | 0.1452    |
+| Doubao-1.5-pro-256k| Bytedance    | N/A    |   ❌   | 0.2308    |
+| Gemini-2.5-pro    | Google    | N/A    |   ❌   | 0.2424    |
+| GPT-5             | OpenAI    | N/A    |   ❌   | 0.2620    |
+| Kimi-K2-0711-preview | Moonshot AI  | 1.01T   |   ✅   | 0.2230    |
+| O3                | OpenAI    | N/A    |   ❌   | 0.2594    |
+| Deepseek-R1       | Deepseek  | 671B   |   ✅   | 0.1916    |
+| Grok-4            | xAI       | N/A    |   ❌   | 0.1920    |
+
+  
+## V1-Version-2025-07-30
+| Model             | Org.      | Params | Open. | Overall |
+| ----------------- | --------- | ------ | :---: |  ------- |
+| Claude-3-7-sonnet | Anthropic | N/A    |   ❌   | 0.2648  |
+| Gemini-2.5-pro    | Google    | N/A    |   ❌   | 0.3813  |
+| O3                | OpenAI    | N/A    |   ❌   | 0.4025  |
+| Deepseek-R1       | Deepseek  | 671B   |   ✅   | 0.3251  |
+| Grok-4            | xAI       | N/A    |   ❌   |  0.3442  |
 
 <div></div>
 
