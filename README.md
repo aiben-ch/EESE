@@ -66,11 +66,11 @@ _What constitutes a good science benchmark?_
 # V3-Version-2026-01-16
 | Model                          | Org.      | Params | Open. | Overall |
 | ------------------------------ | --------- | ------ | :---: | ------- |
-| Doubao-1-5-Pro-32K-250115      | ByteDance | N/A    |   ❌   | 0.3606  |
+| Doubao-1-5-Pro-32K     | ByteDance | N/A    |   ❌   | 0.3606  |
 | GPT-5                          | OpenAI    | N/A    |   ❌   | 0.3520  |
 | Kimi-K2-0905-preview           | Moonshot  | N/A    |   ❌   | 0.3424  |
 | Gemini-2.5-flash               | Google    | N/A    |   ❌   | 0.3250  |
-| Qwen3-235B-A22B-Instruct-2507  | Alibaba   | 235B   |   ❌   | 0.3076  |
+| Qwen3-235B-A22B-Instruct  | Alibaba   | 235B   |   ❌   | 0.3076  |
 | GLM-4.5v                       | Zhipu AI  | N/A    |   ❌   | 0.3012  |
 | Deepseek-R1                    | Deepseek  | 671B   |   ✅   | 0.2932  |
 | Deepseek-V3                    | Deepseek  | N/A    |   ❌   | 0.2756  |
