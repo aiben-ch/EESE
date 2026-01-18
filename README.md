@@ -51,7 +51,7 @@ _What constitutes a good science benchmark?_
 
 
 ## Release
-- [2025/10/15]🔥  Our EESE-V3 is coming soon <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
+- [2025/10/15]🔥  Our EESE-V3 is updated online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
 - [2025/10/15]🔥  Our EESE-V2 is updated online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
 - [2025/7/30] 🔥  Evaluation is avaiable on <a href="https://github.com/open-compass">OpenCompass</a>.
 - [2025/7/24] 🔥  Our quick start method is submmitted online <a href="https://github.com/aiben-ch/EESE">EESE-Quick-Start</a>.
