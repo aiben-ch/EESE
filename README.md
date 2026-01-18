@@ -51,11 +51,11 @@ _What constitutes a good science benchmark?_
 
 
 ## Release
-- [2025/10/15]🔥  Our EESE-V3 is updated online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
+- [2026/01/16]🔥  Our EESE-V3 is updated online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
 - [2025/10/15]🔥  Our EESE-V2 is updated online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
 - [2025/7/30] 🔥  Evaluation is avaiable on <a href="https://github.com/open-compass">OpenCompass</a>.
 - [2025/7/24] 🔥  Our quick start method is submmitted online <a href="https://github.com/aiben-ch/EESE">EESE-Quick-Start</a>.
-- [2025/7/23] 🔥  Our dataset is submmitted online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
+- [2025/7/23] 🔥  Our EESE-V1 is updated online <a href="https://huggingface.co/datasets/AIBench/EESE">EESE-Dataset</a> .
 - [2025/7/22] 🔥  Our paper is submmitted online <a href="https://arxiv.org/pdf/2507.16514">EESE-Paper</a> .
 
   
@@ -64,7 +64,7 @@ _What constitutes a good science benchmark?_
 - **A dynamic, leakage-resilient evaluation set**: We propose EESE, a 500-instance subset periodically updated (regular resampling 500 instances from the EESE-Pool), maintaining representativeness while reducing leakage risk and evaluation overhead.
 - **Comprehensive evaluation of LLMs**: We evaluate 32 leading models (open- and closed-source) on EESE-Pool and EESE, revealing significant performance gaps across disciplines, the effectiveness of refinement in improving quality, and the trade-offs between inference cost and science ability. The findings offer insights for future science benchmarks.
 
-# V3-Version-2026-01-16
+## V3-Version-2026-01-16
 | Model                          | Org.      | Params | Open. | Overall |
 | ------------------------------ | --------- | ------ | :---: | ------- |
 | Doubao-1-5-Pro-32K     | ByteDance | N/A    |   ❌   | 0.3606  |
@@ -82,12 +82,7 @@ _What constitutes a good science benchmark?_
 | Qwen2.5-72B-Instruct           | Alibaba   | 72B    |   ❌   | 0.1906  |
 | Claude-3-7-sonnet              | Anthropic | N/A    |   ❌   | 0.1452  |
 
-### 排序说明
-1.  按照 **Overall** 分数**从高到低**排序，分数越高的模型排在越靠前的位置
-2.  补充了`GLM-4.5v`的机构信息为**Zhipu AI**，保持信息完整性
-3.  所有数值的小数位数统一为四位，格式保持一致
 
-是否需要我帮你**筛选出Open列标注为✅的开源模型**单独整理成一个精简表格？
 
 ## V2-Version-2025-10-15
 | Model             | Org.      | Params | Open. | Overall |
